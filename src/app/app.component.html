@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="section-1">
+      <input type="number" [(ngModel)]="num" (input)="handleNumberChange($event)">
+    </div>
+    <div class="section-2">
+      <select name="mode" id="mode" (change)="handleModeChange($event)" [value]="mode">
+        <option value="0">IsPrime</option>
+        <option value="1">IsFibonacci</option>
+      </select>
+    </div>
+    <div class="section-3">
+      <p>{{ result }}</p>
+    </div>
+</div>

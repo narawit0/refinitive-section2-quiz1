@@ -1,0 +1,24 @@
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+}
+
+
+.section-1 {
+  width: 200px;
+}
+
+.section-2 {
+  min-width: 100px;
+  flex-grow: 1;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+
+.section-3 {
+  width: 300px;
+}
+
